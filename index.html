@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Form.css" />
+    <title> Enrollment Form</title>
+  </head>
+  <body>
+    <nav> 
+      <h1>Registration Form</h1>
+    </nav>
+    <div class="box">
+    <h1>Form:</h1>
+    <div class="Form">
+        <div id="nameDiv" class="input">
+            Name: <input autocomplete="none" id="name" type="text" placeholder="Enter Name" />
+        </div>
+        <div id="fields" class="input">
+            Age: <input id="age" autocomplete="none" type="text" placeholder="Enter Age" />
+        </div>
+        <div id="fields" class="input">
+            Email: <input id="email" autocomplete="none" type="text" placeholder="Enter Email" />
+        </div>
+        <div id="fields" class="input">
+            City: <input id="city" autocomplete="none" type="text" placeholder="Enter City" />
+        </div>
+        <div id="fields" class="input">
+            Phone: <input id="phone" type="text"  autocomplete="cc-number" placeholder="Enter Phone No." />
+        </div>
+        <div id="fields" class="inputF">
+            Gender:<input type="radio" id="M" name="gender" value="male"> Male
+            <input type="radio" id="F" name="gender" value="female"> Female
+            <input type="radio" id="O" name="gender" value="female"> Other
+        </div>
+        
+      <button id="entry">Submit</button>
+    </div>
+</div>
+    <div class="table">
+      <table id="display">
+        <h1>Enrolled Details</h1>
+        <tr>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Age</th>
+          <th>Email</th>
+          <th>City</th>
+          <th>Phone</th>
+        </tr>
+      </table>
+    </div>
+    <script src="Form.js"></script>
+  </body>
+</html>
